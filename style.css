@@ -1,0 +1,77 @@
+@font-face {
+    font-family:Figtree ;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:Figtree ;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-weight: bold;
+}
+body {background-color: hsl(47, 88%, 63%);height: 100vh;display: flex;align-items: center;justify-content: center;
+    font-family: Figtree;
+    color: hsl(0, 0%, 7%);
+}
+
+div#blog-car {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 336px;
+    box-shadow: 10px 10px 0px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+div#blog-img > svg {
+    border-radius: 10px !important;
+}
+
+div#blog-cat {
+    margin: 20px 0;
+    width: auto;
+}
+
+div#blog-cat>span {
+    background: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+div#blog-auther img {
+    width: 36px;
+}
+
+div#blog-auther {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+p{
+    color: hsl(0, 0%, 50%);
+}
+div#blog-car:hover{
+    box-shadow: 15px 15px ;
+
+}
+h1{
+    color: black;
+    transition: all 0.5s ease-out;
+
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+@media screen and (max-width:400px) {
+    div#blog-car {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    div#blog-img > svg {
+        width: 100%;
+    }
+    
+}
